@@ -5,7 +5,7 @@ import axios from 'axios';
 import { exec } from 'child_process';
 
 async function getWeatherDetailsByCity(cityname = '') {
-  const url = `https://wttr.in/${cityname.toLowerCase()}?format=%C+%t`;
+  const url = `https://wttr.in/${hyderabad.toLowerCase()}?format=%C+%t`;
   const { data } = await axios.get(url, { responseType: 'text' });
   return `The current weather of ${cityname} is ${data}`;
 }
