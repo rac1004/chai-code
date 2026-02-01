@@ -2,7 +2,7 @@ import 'dotenv/config';
 import { OpenAI} from 'openai';
 
 const client =new OpenAI({
-    //faskfkaapiKey: "your gemini api key",
+    apiKey: "your gemini api key",
     baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/"
 });
 
