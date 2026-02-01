@@ -95,9 +95,9 @@ async function main() {
     {
       role: 'user',
       content:
-        //'In the current directly, read the changes via git and push the changes to github with good commit message',
+        'In the current directly, read the changes via git and push the changes to github with good commit message',
         //'Hi tell how many repo rac1004 have',
-        'Hey, create a folder todo_app and create a simple todo application using html, css and javascript',
+        //'Hey, create a folder todo_app and create a simple todo application using html, css and javascript',
     },
   ];
 
