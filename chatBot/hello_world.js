@@ -2,7 +2,7 @@ import 'dotenv/config';
 import { OpenAI} from 'openai';
 
 const client =new OpenAI({
-    apiKey: "AIzaSyB0bRb7adI_y9PIcWpgG6PDEZ8luUT_n1g",
+    apiKey: "",
     baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/"
 });
 
