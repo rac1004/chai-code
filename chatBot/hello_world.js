@@ -23,6 +23,3 @@ async function main(){
     console.log(response.choices[0].message.content);    
 }
 main(); 
-
-
-//gemini api key AIzaSyB0bRb7adI_y9PIcWpgG6PDEZ8luUT_n1g
